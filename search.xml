@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>频道机器人</title>
+      <link href="/2023/03/05/QQ%E9%A2%91%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+      <url>/2023/03/05/QQ%E9%A2%91%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/</url>
+      
+        <content type="html"><![CDATA[<h1 id="wss链接"><a href="#wss链接" class="headerlink" title="wss链接"></a>wss链接</h1><p>很简单就是用get http申请wss链接</p><p>然后鉴权→解析json内容→发送心跳→返回鉴权</p><h2 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h2><p>剩下的就是断连维护等等…..</p><p>官方目录还是比较详细的!!!!!!!</p><h2 id="鉴权"><a href="#鉴权" class="headerlink" title="鉴权"></a>鉴权</h2><h3 id="提示-1"><a href="#提示-1" class="headerlink" title="提示"></a>提示</h3><p>鉴权其实就是提交协议包</p><h3 id="提交方法"><a href="#提交方法" class="headerlink" title="提交方法"></a>提交方法</h3><p><code>bot token</code></p><p><code>Authorization: Bot ID.令牌</code></p><p><code>Bearer Token</code></p><p><code>Authorization: Bearer 密匙</code></p><h2 id="提示-2"><a href="#提示-2" class="headerlink" title="提示"></a>提示</h2><p>快中考了，没什么时间玩网络了sorry咯！</p><h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><p>转载请著名出处,感谢你的配合。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> QQ频道机器人 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>天地频道框架</title>
+      <link href="/2023/03/05/%E5%A4%A9%E5%9C%B0%E9%A2%91%E9%81%93%E6%A1%86%E6%9E%B6/"/>
+      <url>/2023/03/05/%E5%A4%A9%E5%9C%B0%E9%A2%91%E9%81%93%E6%A1%86%E6%9E%B6/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>频道框架完成</p><h1 id="总体"><a href="#总体" class="headerlink" title="总体"></a>总体</h1><h2 id="框架详情"><a href="#框架详情" class="headerlink" title="框架详情"></a>框架详情</h2><ul><li><a href="https://bot.q.qq.com/wiki/"><strong>QQ官方开发文档</strong></a></li></ul><p>wss链接还有断线重连等功能，日后会日益完善。</p><h2 id="框架完成"><a href="#框架完成" class="headerlink" title="框架完成"></a>框架完成</h2><ul><li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=RJXH3uZlqp98Kv2GK4tjHx6zka4E1Cxi&authKey=rxjI9pcp9kNzDtLdOZq9OWNEdra2uH2/vZv+AZkL4KFuXqfuHony+hqtY2h8sEDm&noverify=0&group_code=832809056"><strong>qq群</strong></a></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> QQ频道机器人 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>天地框架</title>
+      <link href="/2022/10/02/QQ%E6%A1%86%E6%9E%B6/"/>
+      <url>/2022/10/02/QQ%E6%A1%86%E6%9E%B6/</url>
+      
+        <content type="html"><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>本人年龄并不大，接下来讲的大家一定都能听懂，要自己制作框架的留下来。</p><ul><li><a href="http://123.vkgvkg.top/forum.php?gid=1">本人框架</a></li></ul><h2 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h2><p>QQ框架没什么新意<br>接下来用10分钟左右时间理解<br>你也能做出属于你自己的QQ框架<br>依据<a href="https://docs.go-cqhttp.org/">gocqhttp</a>为核心<br>其实就是监视gocqhttp反馈post值然后给插件然后访问内网api<br>发送消息 个人认为（没什么厉害的）<br><a href="https://pan.laorubin.cn/s/knquQ">栗子（密码：tdkj）</a>用于接受json原文本消息<br>接收后json解析，提取，调用就行了（作者建议用dll以防被破解）<br>api看一看官方文档就懂了<br>其实也没什么可讲的就是gocqhttp监视，调用。<br>不懂得加QQ:3107856775(花小钱提问)</p><h2 id="开发者dll调用"><a href="#开发者dll调用" class="headerlink" title="开发者dll调用"></a>开发者dll调用</h2><p>复制文件到一个地址</p><p>dll调用这个地址的固定文件就欧克了</p><p>这里建议关闭框架官方dll删除</p><p>开启框架：安装dll</p><p>确保源码的安全性（懂得都懂）</p><p>可以使用易语言来写也可以用python等多种语言来写无所谓</p><p>能跑就行对不对😁😁😁😁</p><h3 id="监视自定义"><a href="#监视自定义" class="headerlink" title="监视自定义"></a>监视自定义</h3><p>自定义监视端口可以让同一网络下多开（比较方便）</p><p>配置文件：config.yml</p><p>http post（记得注释删除以免无法使用）</p><p>更改端口就行了（当txt文件读就行了然后转一下编码格式就行了）</p><h3 id="形式"><a href="#形式" class="headerlink" title="形式"></a>形式</h3><p>gocqhttp：属于客户端</p><p>用编程软件写个服务端接口与gocqhttp的yml配置文件相（端口）同即可</p><p>然后接受消息（返回数据）json消息（解析即可）</p><h3 id="api"><a href="#api" class="headerlink" title="api"></a>api</h3><p>API格式是：发送群消息：http:&#x2F;&#x2F; + yml设置ip + yml设置端口 + &#x2F;send_group_msg?group_id&#x3D;” ＋ 发送群号 ＋ “&amp;message&#x3D;” ＋ 发送内容</p><p>注意：中文要转为utf8格式（否则发送消息会出现乱码）</p><p>换行符：%0a（直接用浏览器访问用这个易语言也用这个）</p><p>易语言：有些东西需要手动转义比如换行符，xml，json（建议使用”子文本替换“（可以减少麻烦））</p><h2 id="cmd管道"><a href="#cmd管道" class="headerlink" title="cmd管道"></a>cmd管道</h2><p>这个命令（cmd &#x2F;C cmd &#x2F;K tdkj-http.exe &gt;”C:\1.txt”）生成but文件覆盖</p><p>然后进行编码转换读取就行了</p><p>可以用于登入</p><h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>转载请注原创（跪谢）</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 框架 </tag>
+            
+            <tag> 开发技巧 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>国庆节快乐</title>
+      <link href="/2022/10/01/%E5%9B%BD%E5%BA%86%E5%BF%AB%E4%B9%90/"/>
+      <url>/2022/10/01/%E5%9B%BD%E5%BA%86%E5%BF%AB%E4%B9%90/</url>
+      
+        <content type="html"><![CDATA[<h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2><p>今天博客创建之日</p><p>也是国庆之时</p><p>祝愿国家繁荣富强</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 节日 </tag>
+            
+            <tag> 博客创建 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
