@@ -20,7 +20,7 @@
   
   
     <script>
-        var themeModelId = '7';
+        var themeModelId = '5';
         if (themeModelId) {
             localStorage.setItem('modelId', themeModelId);
         }
@@ -74,7 +74,7 @@
     <!-- import link -->
     
         
-            
+            <link href="font.css"  rel="stylesheet">
         
             
         
@@ -95,18 +95,34 @@
   <!-- 页面预加载动画 -->
 
   
-    <div id='loader'>
-  <link rel="stylesheet" href="/js/loaded/index.css" >
-  <div class="loading-left-bg"></div>
-  <div class="loading-right-bg"></div>
-  <div class="spinner-box">
-    <div class="configure-border-1">
-      <div class="configure-core"></div>
+    <div class="preloader_5" id="loader">
+  <div class="cube">
+    <div class="topD"></div>
+    <div>
+      <span style="--i:0"></span>
+      <span style="--i:1"></span>
+      <span style="--i:2"></span>
+      <span style="--i:3"></span>
     </div>
-    <div class="configure-border-2">
-      <div class="configure-core"></div>
+
+    <div class="cube2">
+      <div>
+        <span style="--i:0"></span>
+        <span style="--i:1"></span>
+        <span style="--i:2"></span>
+        <span style="--i:3"></span>
+      </div>
+
+      <div class="cube3">
+        <div class="top3"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
+      </div>
     </div>
-    <div class="loading-word">加载中...</div>
   </div>
 </div>
   
@@ -1394,8 +1410,8 @@
 <!-- 鼠标点击特效 -->
 <!-- 爱心点击 -->
 
-  
-    <script src="/js/cursor/text.js"></script>
+   
+    <script src="/js/cursor/clicklove.js"></script> 
   
 
 
