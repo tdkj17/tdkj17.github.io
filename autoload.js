@@ -41,4 +41,4 @@ if (screen.width >= 768) {
 	});
 }
 
-console.log(`看什么看`);
+console.log(`看什么看无语！`);
