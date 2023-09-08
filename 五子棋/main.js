@@ -143,7 +143,7 @@ computerWin[k]--;
 myWin[k] = _myWin[i];//这个位置对方可能赢
 }
 }
-resultTxt.innerHTML = '--清软云AI算法益智五子棋--';
+resultTxt.innerHTML = '--jerry五子棋--';
 returnAble = true;
 backAble = false;
 }
